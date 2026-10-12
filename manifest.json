@@ -1,7 +1,7 @@
 {
-  "name": "Fortune Makunya — Founder & Full-Stack Developer",
-  "short_name": "Fortune.",
-  "description": "Portfolio of Fortune Makunya — Solo founder and full-stack developer from Harare, Zimbabwe. Creator of JustGlow, Viba, RunneR and Fluxi Agency.",
+  "name": "Fortune Makunya — Senior Odoo ERP Developer & Systems Architect",
+  "short_name": "Fortune ERP",
+  "description": "Portfolio of Fortune Makunya — Senior Odoo ERP Developer & Systems Architect. Specializing in Odoo 14-19, Python ORM, OWL, REST APIs, Sage Evolution SDK sync, ERPNext & custom modules.",
   "start_url": "/fortune-dev/",
   "scope": "/fortune-dev/",
   "display": "standalone",

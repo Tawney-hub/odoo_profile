@@ -1,219 +1,99 @@
-# 🚀 Fortune Makunya Portfolio - Progressive Web App (PWA)
+# 🚀 Fortune Makunya — Senior Odoo ERP Developer & Systems Architect
 
-A modern, responsive portfolio website that functions as a Progressive Web App (PWA) with offline capabilities and native app-like experience.
-
-## ✨ PWA Features
-
-### 📱 **Installable App**
-- **Download to Home Screen**: Install the portfolio as a native app on your device
-- **Cross-Platform**: Works on desktop, mobile, and tablet devices
-- **Offline Access**: View the portfolio even without internet connection
-- **App-like Experience**: Full-screen mode, custom icons, and smooth navigation
-
-### 🔧 **Technical PWA Features**
-- **Service Worker**: Handles caching and offline functionality
-- **Web App Manifest**: Defines app properties and installation behavior
-- **Background Sync**: Handles offline form submissions
-- **Push Notifications**: Real-time updates and alerts
-- **Responsive Design**: Optimized for all screen sizes
-
-## 🎯 **How to Install as PWA**
-
-### **Desktop (Chrome/Edge)**
-1. Visit the portfolio website
-2. Look for the **"Install"** button in the address bar
-3. Click **"Install"** to add to your desktop
-4. The app will appear in your applications folder
-
-### **Mobile (Android)**
-1. Open the portfolio in Chrome/Edge
-2. Tap the **"Install App"** button in the header
-3. Follow the installation prompts
-4. The app will appear on your home screen
-
-### **iOS (Safari)**
-1. Open the portfolio in Safari
-2. Tap the **"Share"** button
-3. Select **"Add to Home Screen"**
-4. Customize the name and tap **"Add"**
-
-## 🎨 **Design Features**
-
-### **Color Scheme**
-- **Primary**: Dark Green (#0A6A0A)
-- **Secondary**: Red (#DC3545)
-- **Background**: Clean White (#FFFFFF)
-- **Text**: Dark Grey (#333333)
-
-### **Modern UI Elements**
-- **Glassmorphism Effects**: Transparent navbar with backdrop blur
-- **Smooth Animations**: AOS (Animate On Scroll) effects
-- **Responsive Layout**: Mobile-first design approach
-- **Interactive Elements**: Hover effects and smooth transitions
-
-## 📱 **Mobile Optimization**
-
-### **Responsive Design**
-- **Mobile-First**: Optimized for small screens
-- **Touch-Friendly**: Large touch targets and intuitive navigation
-- **Fast Loading**: Optimized images and efficient caching
-- **Offline Support**: Service worker caches essential resources
-
-### **Performance Features**
-- **Lazy Loading**: Images and content load as needed
-- **Minified Assets**: Optimized CSS, JS, and images
-- **CDN Integration**: Fast loading external resources
-- **Progressive Enhancement**: Works on all devices
-
-## 🛠 **Technical Stack**
-
-### **Frontend**
-- **HTML5**: Semantic markup and accessibility
-- **CSS3**: Modern styling with CSS variables
-- **JavaScript**: ES6+ with async/await support
-- **Bootstrap 5**: Responsive grid and components
-
-### **PWA Technologies**
-- **Service Worker**: Offline functionality and caching
-- **Web App Manifest**: App installation and properties
-- **IndexedDB**: Local data storage for offline use
-- **Push API**: Real-time notifications
-
-### **External Libraries**
-- **AOS**: Animate On Scroll animations
-- **GLightbox**: Image gallery and lightbox
-- **Swiper**: Touch-enabled sliders
-- **Font Awesome**: Icon library
-
-## 📁 **File Structure**
-
-```
-fortu_dev/
-├── index.html          # Main portfolio page
-├── cv.html            # CV/Resume page
-├── manifest.json      # PWA manifest file
-├── sw.js             # Service worker
-├── README.md         # This file
-├── assets/
-│   ├── css/          # Stylesheets
-│   ├── js/           # JavaScript files
-│   ├── img/          # Images and icons
-│   └── vendor/       # Third-party libraries
-```
-
-## 🚀 **Getting Started**
-
-### **Local Development**
-1. Clone the repository
-2. Open `index.html` in a web browser
-3. For PWA testing, use a local server (e.g., Live Server in VS Code)
-
-### **Production Deployment**
-1. Upload all files to your web server
-2. Ensure HTTPS is enabled (required for PWA)
-3. Test PWA installation on various devices
-4. Verify service worker registration
-
-## 🔍 **PWA Testing**
-
-### **Chrome DevTools**
-1. Open DevTools (F12)
-2. Go to **Application** tab
-3. Check **Manifest** and **Service Workers**
-4. Test **Offline** functionality
-
-### **Lighthouse Audit**
-1. Run Lighthouse audit in DevTools
-2. Check PWA score (should be 90+)
-3. Address any issues found
-4. Optimize performance and accessibility
-
-## 📊 **Performance Metrics**
-
-### **Target Scores**
-- **PWA**: 90+
-- **Performance**: 90+
-- **Accessibility**: 90+
-- **Best Practices**: 90+
-- **SEO**: 90+
-
-### **Key Metrics**
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **First Input Delay**: < 100ms
-
-## 🌟 **Features Overview**
-
-### **Portfolio Sections**
-- **Hero**: Introduction and call-to-action
-- **About**: Personal information and background
-- **Skills**: Technical expertise and proficiency
-- **Resume**: Work experience and education
-- **Projects**: Portfolio of completed work
-- **Contact**: Contact form and information
-
-### **Interactive Elements**
-- **Theme Toggle**: Dark/light mode switching
-- **Smooth Scrolling**: Navigation between sections
-- **Form Validation**: Contact form with validation
-- **Responsive Navigation**: Mobile-friendly menu
-
-## 🔧 **Customization**
-
-### **Colors**
-Update CSS variables in `index.html`:
-```css
-:root {
-  --accent-color: #0A6A0A;        /* Dark Green */
-  --border-color: #DC3545;        /* Red */
-  --background-color: #FFFFFF;    /* White */
-  --default-color: #333333;       /* Dark Grey */
-}
-```
-
-### **Content**
-- Edit `index.html` for portfolio content
-- Update `manifest.json` for PWA properties
-- Modify `sw.js` for caching strategy
-
-## 📱 **Browser Support**
-
-### **PWA Support**
-- **Chrome**: 67+ ✅
-- **Edge**: 79+ ✅
-- **Firefox**: 58+ ✅
-- **Safari**: 11.1+ ✅
-- **Mobile Chrome**: 67+ ✅
-- **Mobile Safari**: 11.1+ ✅
-
-### **Fallback Support**
-- **Older Browsers**: Basic website functionality
-- **No Service Worker**: Online-only experience
-- **No PWA**: Standard web app behavior
-
-## 🎉 **Success Stories**
-
-### **Client Benefits**
-- **Professional Appearance**: Modern, impressive UI
-- **Easy Access**: Quick installation on devices
-- **Offline Capability**: Always accessible portfolio
-- **Mobile Optimized**: Perfect for mobile users
-
-### **Developer Benefits**
-- **Modern Tech Stack**: Latest web technologies
-- **Performance Optimized**: Fast loading and smooth experience
-- **SEO Friendly**: Search engine optimized
-- **Maintainable Code**: Clean, organized structure
-
-## 📞 **Support & Contact**
-
-For technical support or questions about the PWA implementation:
-- **Email**: Fortunemakunya33@gmail.com
-- **GitHub**: [Tawney-hub](https://github.com/Tawney-hub/)
-- **LinkedIn**: [Fortune Makunya](https://www.linkedin.com/in/fortune-makunya-677b86380)
+A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) showcasing enterprise-grade **Odoo ERP modules (v14–v19)**, custom Python ORM architectures, OWL/QWeb frontend components, accounting engines, and cross-platform sync pipelines.
 
 ---
 
-**Built with ❤️ by Fortune Makunya**  
-*Full-Stack Developer & AI Engineer* 
+## ⚡ Core Specializations
+
+- **Odoo ERP Framework**: Odoo 14, 15, 16, 17, 18, and 19 (Community & Enterprise)
+- **Backend & Logic**: Python ORM, XML Views, QWeb reporting engines, automated server actions, cron workflows
+- **Frontend & UI/UX**: OWL (Odoo Web Library), JavaScript, custom widgets, Point of Sale (POS) UI extensions
+- **Database & Performance**: PostgreSQL query optimization, indexes, multi-company partitioning, vacuuming
+- **ERP Integration Engines**:
+  - Sage Evolution SDK API Bridge (Two-way sync: Customers, SOs, Invoices, Inventory)
+  - Odoo to Frappe/ERPNext Multi-Company Bi-Directional Synchronizer
+  - REST & JSON-RPC Webhook APIs
+  - Zim Localisation Payroll, Fiscal Devices & Tax engines
+- **Systems Architecture**: Docker, Traefik, Linux (Ubuntu/Debian), Windows Deployment Engines, Nginx reverse proxies
+
+---
+
+## 📦 Featured Odoo Projects & Modules (30+)
+
+### 🏢 Enterprise Suites
+1. **Havano All-In-One Enterprise Odoo Suite**: Complete multi-company distribution ERP covering POS, inventory, accounting, and fleet operations.
+2. **Odoo 19 Windows Deployment Engine**: Automated PowerShell & NSSM service deployment engine for Odoo 19 with PostgreSQL bundling.
+3. **Multi-Company Branch Management**: Isolated accounting & stock ledger partitions across subsidiary companies with inter-company journal automation.
+4. **Offline Desktop POS Sync**: Electron + SQLite offline cashier client with automatic background reconciliation to Odoo POS backend.
+5. **Manufacturing (MRP) Dynamic BOM Engine**: Multi-tiered bills of materials, automated scrap rate factoring, and work-center capacity forecasting.
+
+### 💰 Accounting & Financials
+6. **Multi-Currency Dynamic Exchange Engine**: Real-time cross-currency ledger revaluations, historical currency gain/loss ledgers, and rate feeds.
+7. **Sage Evolution SDK API Bridge**: Real-time two-way synchronization bridge between Odoo and Sage Pastel Evolution SDK.
+8. **Automated Bank Reconciliation Engine**: ISO 20022 and MT940 statement parsing with rule-based statement reconciliation.
+9. **Asset Depreciation & Amortization Suite**: Multi-method asset depreciation (Straight-line, Declining balance) with automated monthly entries.
+10. **Zimbabwe Localisation Payroll & Tax Suite**: ZIMRA tax brackets, NSSA contributions, NEC standards, and payslip generation.
+11. **Tax Audit & Electronic Invoicing Engine**: Cryptographic digital signatures, QR codes, and tamper-evident audit trails.
+
+### 📦 Logistics & Operations
+12. **Automated Reordering & Lead Time Suite**: Predictive demand calculation, automated PO generation, and vendor scoring.
+13. **Warehouse 3D Floor & Bin Optimizer**: Visual warehouse layout visualizer, optimized pick-pack-ship routing, and zone velocity analytics.
+14. **Cross-Docking & Drop-Shipping Automation**: Zero-inventory flow engine linking inbound PO receipts to outbound customer orders.
+15. **Fleet & Vehicle Route Optimization**: Real-time GPS-assisted trip logs, automated fuel voucher balancing, and preventive maintenance.
+16. **Barcoding & QR Warehouse Mobile UI**: High-throughput camera & Honeywell/Zebra scanner OWL interface for inventory moves.
+17. **Consignment Stock & Vendor-Managed Inventory (VMI)**: Stock ownership segmentation for third-party consigned items.
+
+### 🔌 APIs & Sync Engines
+18. **Odoo to Frappe/ERPNext Synchronizer**: High-throughput REST API sync engine for customers, items, and cross-platform ledgers.
+19. **Odoo RESTful & JSON-RPC Webhook Gateway**: Fully documented Swagger/OpenAPI compliant REST gateway with rate limiting and HMAC authentication.
+20. **E-Commerce Real-Time Stock & Order Sync**: Webhook-driven synchronization for Shopify, WooCommerce, and custom web frontends.
+21. **Omnichannel Messaging & SMS Gateway**: Automated notification engine dispatching WhatsApp, SMS, and email alerts on invoice creation and delivery.
+22. **Biometric Attendance to HR Timesheet Sync**: ZKTeco and Hikvision hardware integration pushing biometric logs directly into Odoo HR.
+23. **CRM Lead Auto-Assignment & Enrichment Engine**: GeoIP and round-robin sales pipeline routing with automated email verification.
+
+### 🚀 Flagship Products & Platforms
+24. **Multi-Tenant School Management ERP**: Comprehensive academic, fee billing, gradebook, and student portal ERP.
+25. **JustGlow Beauty Marketplace**: Full-stack marketplace connecting verified clients with beauty professionals.
+26. **Viba Audio Streaming Platform**: High-scale African music streaming ecosystem.
+27. **RunneR Real-Time Delivery Logistics**: Instant courier dispatching and package tracking system.
+28. **Fluxi Agency Tech Ecosystem**: Production web architecture and enterprise client portfolio.
+29. **Hospitality & Room Booking PMS Module**: Front-desk reservation, room service POS integration, and automated night audits.
+30. **Quality Control & Inspection Checkpoints**: Inline quality checkpoints during manufacturing and receiving with CAPA workflows.
+
+---
+
+## ✨ Features & User Experience
+
+- **Cyberpunk Dark Aesthetic**: Signature neon accents (`#00f5a0` emerald, `#00d9f5` cyan, `#ff4d6d` magenta), mesh gradients, and glassmorphism.
+- **Interactive Project Filtering**: Instant filtering across *Enterprise Suites*, *Accounting & Financials*, *Logistics & Operations*, *APIs & Sync Engines*, and *Flagship Products*.
+- **PWA Capabilities**: Installable on desktop & mobile with service worker caching (`fortune-portfolio-v2`).
+- **Interactive Canvas Particles & 3D Tilt**: Physics-driven interactive background canvas and 3D gyroscope/hover card tilt effects.
+- **Dual Themes**: Smooth dark/light mode toggle with full contrast maintenance across all elements.
+- **Dedicated CV Page**: Deep-dive resume page (`cv.html`) detailing formal education (B.Sc. Hons Computer Engineering, University of Zimbabwe), professional experience, and enterprise skill matrices.
+
+---
+
+## 🛠 Local Setup
+
+1. Open `fortune-dev/index.html` directly in any modern browser, or serve via an HTTP server:
+   ```bash
+   # Python
+   python -m http.server 8080
+
+   # Node / npx
+   npx serve .
+   ```
+2. Navigate to `http://localhost:8080` (or `http://localhost:8080/fortune-dev/index.html`).
+
+---
+
+## 📞 Contact & Inquiries
+
+- **Lead Engineer**: Fortune Makunya
+- **Email**: [Fortunemakunya33@gmail.com](mailto:Fortunemakunya33@gmail.com)
+- **GitHub**: [github.com/Tawney-hub](https://github.com/Tawney-hub)
+- **LinkedIn**: [linkedin.com/in/fortune-makunya-677b86380](https://www.linkedin.com/in/fortune-makunya-677b86380)
+
+---
+*Architected with precision by Fortune Makunya — Senior Odoo ERP Developer & Systems Architect.*"# odoo_profile" 
