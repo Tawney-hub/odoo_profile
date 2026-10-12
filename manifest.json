@@ -49,10 +49,10 @@
       "icons": [{ "src": "assets/img/favicon.png", "sizes": "96x96" }]
     },
     {
-      "name": "Buy Novel",
-      "short_name": "Novel",
-      "description": "Strangers in Proximity on Amazon",
-      "url": "https://www.amazon.com/dp/B0FGDNRPJM",
+      "name": "Odoo Profile",
+      "short_name": "Odoo",
+      "description": "View Fortune's Odoo ERP Developer portfolio",
+      "url": "https://tawney-hub.github.io/odoo_profile/",
       "icons": [{ "src": "assets/img/favicon.png", "sizes": "96x96" }]
     }
   ]
