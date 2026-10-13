@@ -1,13 +1,13 @@
 {
-  "name": "Fortune Makunya — Odoo ERP Specialist & Systems Architect",
+  "name": "Fortune Makunya — Odoo ERP Developer & Systems Developer",
   "short_name": "Fortune ERP",
-  "description": "Portfolio of Fortune Makunya — Odoo ERP Specialist & Systems Architect. Specializing in Odoo 14-19, Python ORM, OWL, REST APIs, Sage Evolution SDK sync, ERPNext & custom modules.",
+  "description": "Portfolio of Fortune Makunya — Odoo ERP Developer & Systems Developer. Specializing in Odoo 14-19, Python ORM, OWL, REST APIs, Flutter POS & PySide6 desktop integrations, ERPNext & custom modules.",
   "start_url": "/fortune-dev/",
   "scope": "/fortune-dev/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#050505",
-  "theme_color": "#050505",
+  "background_color": "#f5f5f0",
+  "theme_color": "#f5f5f0",
   "categories": ["portfolio", "developer", "business"],
   "lang": "en",
   "icons": [

@@ -1,4 +1,4 @@
-# 🚀 Fortune Makunya — Odoo ERP Specialist & Systems Architect
+# 🚀 Fortune Makunya — Odoo ERP Developer & Systems Developer
 
 A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) showcasing enterprise-grade **Odoo ERP modules (v14–v19)**, custom Python ORM architectures, OWL/QWeb frontend components, accounting engines, and cross-platform sync pipelines.
 
@@ -11,7 +11,7 @@ A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) 
 - **Frontend & UI/UX**: OWL (Odoo Web Library), JavaScript, custom widgets, Point of Sale (POS) UI extensions
 - **Database & Performance**: PostgreSQL query optimization, indexes, multi-company partitioning, vacuuming
 - **ERP Integration Engines**:
-  - Sage Evolution SDK API Bridge (Two-way sync: Customers, SOs, Invoices, Inventory)
+  - Flutter POS & PySide6 Desktop Integration Engines (Offline-first POS, Cross-platform GUI, Hardware peripherals, REST APIs)
   - Odoo to Frappe/ERPNext Multi-Company Bi-Directional Synchronizer
   - REST & JSON-RPC Webhook APIs
   - Zim Localisation Payroll, Fiscal Devices & Tax engines
@@ -32,7 +32,7 @@ A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) 
 
 ### 💰 Accounting & Financials
 8. **Multi-Currency Dynamic Exchange Engine**: Real-time cross-currency ledger revaluations, historical currency gain/loss ledgers, and rate feeds.
-9. **Sage Evolution SDK API Bridge**: Real-time two-way synchronization bridge between Odoo and Sage Pastel Evolution SDK.
+9. **Flutter POS & PySide6 Desktop Integration**: Offline-capable Flutter Point of Sale mobile/tablet apps and cross-platform PySide6 desktop clients with real-time Odoo REST API synchronization.
 10. **Automated Bank Reconciliation Engine**: ISO 20022 and MT940 statement parsing with rule-based statement reconciliation.
 11. **Asset Depreciation & Amortization Suite**: Multi-method asset depreciation (Straight-line, Declining balance) with automated monthly entries.
 12. **Zimbabwe Localisation Payroll & Tax Suite**: ZIMRA tax brackets, NSSA contributions, NEC standards, and payslip generation.
@@ -94,4 +94,4 @@ A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) 
 - **GitHub**: [github.com/Tawney-hub](https://github.com/Tawney-hub)
 - **LinkedIn**: [linkedin.com/in/fortune-makunya-677b86380](https://www.linkedin.com/in/fortune-makunya-677b86380)
 
-*Architected with precision by Fortune Makunya — Odoo ERP Specialist & Systems Architect.*
+*Engineered with precision by Fortune Makunya — Odoo ERP Developer & Systems Developer.*

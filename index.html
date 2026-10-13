@@ -4,29 +4,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fortune Makunya — Odoo ERP Developer &amp; Enterprise Architect | Zimbabwe</title>
+  <title>Fortune Makunya — Odoo ERP Developer &amp; Systems Developer | Zimbabwe</title>
   <meta name="description"
-    content="Fortune Makunya — Odoo ERP Developer &amp; Enterprise Systems Architect from Harare, Zimbabwe. Creator of 30+ custom Odoo modules, POS REST APIs, Sage Pastel bridges, ERPNext sync, and bespoke enterprise solutions.">
+    content="Fortune Makunya — Expert Odoo ERP Developer &amp; Systems Architect from Harare, Zimbabwe. Creator of 30+ custom Odoo modules, Flutter POS REST APIs, PySide6 desktop integrations, ERPNext sync, and bespoke enterprise solutions.">
   <meta name="keywords"
-    content="Fortune Makunya, Odoo Developer Zimbabwe, Odoo ERP Specialist, Odoo Custom Modules, Odoo 19, Python Odoo ORM, OWL, QWeb, Harare Odoo developer, Odoo Sage sync, Odoo REST API, Frappe ERPNext developer, Tawney-hub GitHub">
+    content="Fortune Makunya, Odoo ERP Developer Zimbabwe, Odoo ERP Specialist, Odoo Custom Modules, Odoo 19, Python Odoo ORM, OWL, QWeb, Flutter POS, PySide6, Harare Odoo developer, Odoo REST API, Frappe ERPNext developer, Tawney-hub GitHub">
   <meta name="author" content="Fortune Makunya">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
   <link rel="canonical" href="https://tawney-hub.github.io/fortune-dev/">
   <meta name="theme-color" content="#f5f5f0" id="themeColorMeta">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tawney-hub.github.io/fortune-dev/">
-  <meta property="og:title" content="Fortune Makunya — Odoo ERP Developer &amp; Enterprise Architect | Zimbabwe">
+  <meta property="og:title" content="Fortune Makunya — Odoo ERP Developer &amp; Systems Developer | Zimbabwe">
   <meta property="og:description"
-    content="Odoo ERP Developer &amp; Systems Architect from Harare, Zimbabwe. Architect of custom Odoo modules, POS REST APIs, Sage &amp; Frappe synchronization bridges, and 30+ enterprise addons.">
+    content="Odoo ERP Developer &amp; Systems Developer from Harare, Zimbabwe. Creator of custom Odoo modules, Flutter POS REST APIs, PySide6 integrations, and Frappe synchronization bridges.">
   <meta property="og:image" content="https://tawney-hub.github.io/fortune-dev/assets/img/background.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@VibaChronicles">
-  <meta name="twitter:title" content="Fortune Makunya — Odoo ERP Developer &amp; Enterprise Architect">
+  <meta name="twitter:title" content="Fortune Makunya — Odoo ERP Developer &amp; Systems Developer">
   <meta name="twitter:description"
-    content="Odoo ERP Developer &amp; Enterprise Architect. Python ORM · OWL · QWeb · REST APIs · Sage Evolution Bridge · Zimbabwe.">
+    content="Odoo ERP Developer &amp; Systems Developer. Python ORM · OWL · QWeb · Flutter POS · PySide6 · REST APIs · Zimbabwe.">
   <meta name="twitter:image" content="https://tawney-hub.github.io/fortune-dev/assets/img/background.jpg">
   <script
-    type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Fortune Makunya","jobTitle":"Odoo ERP Developer & Enterprise Architect","url":"https://tawney-hub.github.io/fortune-dev/","email":"fortunemakunya88@gmail.com","telephone":"+263780297586","address":{"@type":"PostalAddress","addressLocality":"Harare","addressCountry":"ZW"},"sameAs":["https://github.com/Tawney-hub/","https://fluxi.agency","https://twitter.com/VibaChronicles"],"worksFor":{"@type":"Organization","name":"Enterprise Solutions & Fluxi Agency","url":"https://fluxi.agency"},"knowsAbout":["Odoo","Odoo ORM","Python","OWL","QWeb","PostgreSQL","ERPNext","Frappe","REST APIs","Sage Pastel","POS Systems"]}</script>
+    type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Fortune Makunya","jobTitle":"Odoo ERP Developer & Systems Developer","url":"https://tawney-hub.github.io/fortune-dev/","email":"fortunemakunya88@gmail.com","telephone":"+263780297586","address":{"@type":"PostalAddress","addressLocality":"Harare","addressCountry":"ZW"},"sameAs":["https://github.com/Tawney-hub/","https://fluxi.agency","https://twitter.com/VibaChronicles"],"worksFor":{"@type":"Organization","name":"Enterprise Solutions & Fluxi Agency","url":"https://fluxi.agency"},"knowsAbout":["Odoo","Odoo ORM","Python","OWL","QWeb","PostgreSQL","ERPNext","Frappe","REST APIs","Flutter POS","PySide6","POS Systems"]}</script>
   <link rel="manifest" href="manifest.json">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -197,6 +197,33 @@
       border-radius: 2px
     }
 
+    /* SITE BACKGROUND */
+    .site-bg-wrap {
+      position: fixed;
+      inset: -30px;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .site-bg-img {
+      width: calc(100% + 60px);
+      height: calc(100% + 60px);
+      object-fit: cover;
+      object-position: center center;
+      filter: blur(16px) brightness(0.65) contrast(1.15);
+      transform: scale(1.08);
+      opacity: 0.5;
+      transition: filter .4s ease, opacity .4s ease;
+    }
+
+    .site-bg-overlay {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 35%, rgba(5, 5, 5, 0.45) 0%, rgba(5, 5, 5, 0.8) 100%);
+      transition: background .4s ease;
+    }
+
     /* NOISE */
     body::before {
       content: '';
@@ -204,7 +231,7 @@
       inset: 0;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
       pointer-events: none;
-      z-index: 1;
+      z-index: 2;
       opacity: .5
     }
 
@@ -212,7 +239,7 @@
     #pcanvas {
       position: fixed;
       inset: 0;
-      z-index: 0;
+      z-index: 1;
       pointer-events: none;
       opacity: .35
     }
@@ -596,7 +623,7 @@
     section {
       padding: 110px 0;
       position: relative;
-      z-index: 2
+      z-index: 3
     }
 
     .ct {
@@ -3461,6 +3488,15 @@
     body.light .mob-nav {
       background: rgba(245, 245, 240, 0.98)
     }
+
+    body.light .site-bg-img {
+      filter: blur(16px) brightness(1.15) contrast(0.95);
+      opacity: 0.22;
+    }
+
+    body.light .site-bg-overlay {
+      background: radial-gradient(circle at 50% 35%, rgba(245, 245, 240, 0.72) 0%, rgba(245, 245, 240, 0.88) 100%);
+    }
   </style>
 </head>
 
@@ -3470,6 +3506,10 @@
       document.body.classList.remove('light');
     }
   </script>
+  <div class="site-bg-wrap" aria-hidden="true">
+    <img src="assets/img/v1016-b-09.jpg" alt="" class="site-bg-img" loading="eager">
+    <div class="site-bg-overlay"></div>
+  </div>
   <canvas id="pcanvas"></canvas>
   <div id="cdot"></div>
   <div id="cring"></div>
@@ -3535,8 +3575,9 @@
           <span class="glitch" data-t="Fortune">Fortune</span><br>
           <span class="ol2">Makunya</span>
         </h1>
-        <p class="htitle rv d2"><strong id="typing">Odoo ERP Developer &amp; Architect</strong> from Harare,
-          Zimbabwe.<br>Architecting custom Odoo modules, high-performance APIs, and enterprise systems.</p>
+        <p class="htitle rv d2"><strong id="typing">Odoo ERP Developer &amp; Systems Developer</strong> from
+          Harare,
+          Zimbabwe.<br>Developing custom Odoo modules, high-performance APIs, and enterprise systems.</p>
         <div class="hacts rv d3">
           <a href="#projects" class="btn btn-s"><span>Explore Odoo Modules <i class="bi bi-arrow-right"></i></span></a>
           <a href="#contact" class="btn btn-o">Hire</a>
@@ -3599,11 +3640,12 @@
           </div>
           <div class="rvr">
             <div class="lbl">About Me</div>
-            <h2 class="sh" id="ah">Architecting enterprise<br><em>Odoo ERP solutions</em></h2>
+            <h2 class="sh" id="ah">Developing enterprise<br><em>Odoo ERP solutions</em></h2>
             <p class="sp">Computer Engineer and ERP Systems Architect from Harare, Zimbabwe. I specialize in building
               end-to-end Odoo ecosystems (v14 through v19) — including bespoke business modules, custom accounting
-              engines, logistics workflows, offline POS architectures, and robust synchronization bridges connecting
-              Odoo with Frappe/ERPNext, Sage Pastel Evolution, and WhatsApp APIs.</p>
+              engines, logistics workflows, offline Flutter POS applications, PySide6 desktop integrations, and robust
+              synchronization bridges connecting
+              Odoo with Frappe/ERPNext and WhatsApp APIs.</p>
             <div class="igrid">
               <div class="iitem">
                 <div class="ik">Name</div>
@@ -3708,9 +3750,10 @@
               </div>
             </div>
             <div class="srow">
-              <div class="srt"><span class="srn">Sage Evolution SDK (C#) Sync</span><span class="srp">88%</span></div>
+              <div class="srt"><span class="srn">Flutter POS &amp; PySide6 Desktop Sync</span><span
+                  class="srp">94%</span></div>
               <div class="srb">
-                <div class="srf" data-w="88"></div>
+                <div class="srf" data-w="94"></div>
               </div>
             </div>
             <div class="srow">
@@ -3794,7 +3837,8 @@
             class="ttag">OWL Framework</span>
           <span class="ttag">QWeb Reports</span><span class="ttag">PostgreSQL</span><span class="ttag">Odoo REST
             API</span><span class="ttag">Frappe / ERPNext</span>
-          <span class="ttag">Sage Evolution API</span><span class="ttag">Desktop POS</span><span class="ttag">Trucking
+          <span class="ttag">Flutter POS</span><span class="ttag">PySide6</span><span class="ttag">Desktop
+            POS</span><span class="ttag">Trucking
             &amp; Fleet</span><span class="ttag">Job Card Workflows</span>
           <span class="ttag">ZIMRA Payroll</span><span class="ttag">Cashbook &amp; P&amp;L</span><span
             class="ttag">WhatsApp Business API</span><span class="ttag">Docker</span>
@@ -3836,10 +3880,13 @@
                 <div class="tli-co">Fluxi Enterprise — fluxi.agency</div>
                 <div class="tli-dt">2023 — Present</div>
                 <div class="tli-d">Engineered bi-directional data synchronization bridges between Odoo and
-                  Frappe/ERPNext systems. Built C# API integrations connecting Odoo with Sage Pastel Evolution SDK.
-                  Deployed WhatsApp Business API dispatchers for automated invoices and quotes.</div>
-                <div class="tli-tags"><span class="tli-tag">Odoo</span><span class="tli-tag">ERPNext</span><span
-                    class="tli-tag">Sage API</span><span class="tli-tag">WhatsApp API</span></div>
+                  Frappe/ERPNext systems. Architected offline-capable Flutter Point of Sale (POS) applications and
+                  cross-platform PySide6 desktop integration clients interfaced with Odoo REST APIs, complete with POS
+                  hardware peripheral drivers (thermal printers, barcode scanners, cash drawers). Deployed WhatsApp
+                  Business API dispatchers for automated invoices and quotes.</div>
+                <div class="tli-tags"><span class="tli-tag">Odoo</span><span class="tli-tag">Flutter POS</span><span
+                    class="tli-tag">PySide6</span><span class="tli-tag">ERPNext</span><span class="tli-tag">REST
+                    APIs</span><span class="tli-tag">WhatsApp API</span></div>
               </div>
               <div class="tli">
                 <div class="tli-role">Junior Software Engineer</div>
@@ -3854,10 +3901,11 @@
                 <div class="tli-role">IT Systems &amp; Support Intern</div>
                 <div class="tli-co">Lobels Bread Pvt Ltd</div>
                 <div class="tli-dt">Oct 2023 — Aug 2024</div>
-                <div class="tli-d">ERP systems, SAGE 1000 operations, Active Directory, server infrastructure,
-                  networking, and data integrity monitoring.</div>
-                <div class="tli-tags"><span class="tli-tag">SAGE 1000</span><span class="tli-tag">Networking</span><span
-                    class="tli-tag">Active Directory</span></div>
+                <div class="tli-d">Enterprise ERP systems operations, Active Directory, server infrastructure,
+                  networking, MariaDB/PostgreSQL database maintenance, and data integrity monitoring.</div>
+                <div class="tli-tags"><span class="tli-tag">ERP Systems</span><span
+                    class="tli-tag">Networking</span><span class="tli-tag">Active Directory</span><span
+                    class="tli-tag">Infrastructure</span></div>
               </div>
             </div>
           </div>
@@ -3886,8 +3934,9 @@
               <div class="tli hl" style="border-color:rgba(127,255,0,.2)">
                 <div class="tli-role">Continuous Engineering</div>
                 <div class="tli-dt">Ongoing</div>
-                <div class="tli-d">Odoo 19 Engine · OWL Components · QWeb Reporting · WhatsApp Business API · Sage
-                  Pastel SDK · PostgreSQL Tuning</div>
+                <div class="tli-d">Odoo 19 Engine · OWL Components · QWeb Reporting · WhatsApp Business API · Flutter
+                  POS ·
+                  PySide6 Desktop Clients · PostgreSQL Tuning</div>
                 <div class="tli-tags"><span class="tli-tag">30+ Odoo Modules</span><span class="tli-tag">80+ GitHub
                     Repos</span><span class="tli-tag">Enterprise Ready</span></div>
               </div>
@@ -4503,7 +4552,7 @@
 
       // TYPING EFFECT
       const roles = [
-        'Odoo ERP Developer &amp; Architect',
+        'Odoo ERP Developer &amp; Systems Developer',
         'Custom Odoo Addons &amp; Modules Specialist',
         'Point of Sale REST APIs &amp; Integrations',
         'Enterprise Systems &amp; Sync Engineer'
