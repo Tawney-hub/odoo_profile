@@ -211,16 +211,16 @@
       height: calc(100% + 60px);
       object-fit: cover;
       object-position: center center;
-      filter: blur(16px) brightness(0.65) contrast(1.15);
+      filter: blur(14px) brightness(0.35) contrast(1.1);
       transform: scale(1.08);
-      opacity: 0.5;
+      opacity: 0.75;
       transition: filter .4s ease, opacity .4s ease;
     }
 
     .site-bg-overlay {
       position: absolute;
       inset: 0;
-      background: radial-gradient(circle at 50% 35%, rgba(5, 5, 5, 0.45) 0%, rgba(5, 5, 5, 0.8) 100%);
+      background: radial-gradient(circle at 50% 35%, rgba(5, 5, 5, 0.4) 0%, rgba(5, 5, 5, 0.8) 100%);
       transition: background .4s ease;
     }
 
@@ -1206,7 +1206,8 @@
     .atag-lbl {
       font-family: var(--mo);
       font-size: 10px;
-      color: var(--muted);
+      color: #ffffff;
+      opacity: .85;
       letter-spacing: 1.5px;
       margin-bottom: 4px
     }
@@ -1214,12 +1215,13 @@
     .atag-val {
       font-size: 14px;
       font-weight: 700;
-      color: var(--ac)
+      color: #ffffff
     }
 
     .atag-sub {
       font-size: 12px;
-      color: var(--muted);
+      color: #ffffff;
+      opacity: .9;
       margin-top: 2px
     }
 
@@ -2461,8 +2463,10 @@
       border-color: var(--bd)
     }
 
+    body.light .atag-lbl,
+    body.light .atag-val,
     body.light .atag-sub {
-      color: #666666
+      color: #ffffff !important;
     }
 
     body.light .rglbl {
@@ -3490,12 +3494,12 @@
     }
 
     body.light .site-bg-img {
-      filter: blur(16px) brightness(1.15) contrast(0.95);
-      opacity: 0.22;
+      filter: blur(14px) brightness(0.98) contrast(1.02);
+      opacity: 0.65;
     }
 
     body.light .site-bg-overlay {
-      background: radial-gradient(circle at 50% 35%, rgba(245, 245, 240, 0.72) 0%, rgba(245, 245, 240, 0.88) 100%);
+      background: radial-gradient(circle at 50% 35%, rgba(245, 245, 240, 0.4) 0%, rgba(245, 245, 240, 0.68) 100%);
     }
   </style>
 </head>
@@ -3507,7 +3511,7 @@
     }
   </script>
   <div class="site-bg-wrap" aria-hidden="true">
-    <img src="assets/img/v1016-b-09.jpg" alt="" class="site-bg-img" loading="eager">
+    <img src="assets/img/laptop_clean.jpg" alt="" class="site-bg-img" loading="eager">
     <div class="site-bg-overlay"></div>
   </div>
   <canvas id="pcanvas"></canvas>
@@ -3629,9 +3633,9 @@
             </div>
             <div class="aimgborder"></div>
             <div class="atag">
-              <div class="atag-lbl">// Education</div>
-              <div class="atag-val">BSc Computer Engineering</div>
-              <div class="atag-sub">University of Zimbabwe · 2.1 Hons</div>
+              <div class="atag-lbl" style="color: #ffffff !important; opacity: 0.85;">// Education</div>
+              <div class="atag-val" style="color: #ffffff !important;">BSc Computer Engineering</div>
+              <div class="atag-sub" style="color: #ffffff !important; opacity: 0.9;">University of Zimbabwe · 2.1 Hons</div>
             </div>
             <div class="abadge">
               <div class="ab-num">5+</div>
