@@ -1,4 +1,4 @@
-# 🚀 Fortune Makunya — Senior Odoo ERP Developer & Systems Architect
+# 🚀 Fortune Makunya — Odoo ERP Specialist & Systems Architect
 
 A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) showcasing enterprise-grade **Odoo ERP modules (v14–v19)**, custom Python ORM architectures, OWL/QWeb frontend components, accounting engines, and cross-platform sync pipelines.
 
@@ -94,5 +94,4 @@ A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) 
 - **GitHub**: [github.com/Tawney-hub](https://github.com/Tawney-hub)
 - **LinkedIn**: [linkedin.com/in/fortune-makunya-677b86380](https://www.linkedin.com/in/fortune-makunya-677b86380)
 
----
-*Architected with precision by Fortune Makunya — Senior Odoo ERP Developer & Systems Architect.*"# odoo_profile" 
+*Architected with precision by Fortune Makunya — Odoo ERP Specialist & Systems Architect.*

@@ -1,7 +1,7 @@
 {
-  "name": "Fortune Makunya — Senior Odoo ERP Developer & Systems Architect",
+  "name": "Fortune Makunya — Odoo ERP Specialist & Systems Architect",
   "short_name": "Fortune ERP",
-  "description": "Portfolio of Fortune Makunya — Senior Odoo ERP Developer & Systems Architect. Specializing in Odoo 14-19, Python ORM, OWL, REST APIs, Sage Evolution SDK sync, ERPNext & custom modules.",
+  "description": "Portfolio of Fortune Makunya — Odoo ERP Specialist & Systems Architect. Specializing in Odoo 14-19, Python ORM, OWL, REST APIs, Sage Evolution SDK sync, ERPNext & custom modules.",
   "start_url": "/fortune-dev/",
   "scope": "/fortune-dev/",
   "display": "standalone",
