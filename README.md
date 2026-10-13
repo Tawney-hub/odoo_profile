@@ -22,44 +22,44 @@ A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) 
 ## 📦 Featured Odoo Projects & Modules (30+)
 
 ### 🏢 Enterprise Suites
-1. **Havano All-In-One Enterprise Odoo Suite**: Complete multi-company distribution ERP covering POS, inventory, accounting, and fleet operations.
+1. **All-In-One Enterprise Odoo Suite**: Complete multi-company distribution ERP covering POS, inventory, accounting, and fleet operations.
 2. **Odoo 19 Windows Deployment Engine**: Automated PowerShell & NSSM service deployment engine for Odoo 19 with PostgreSQL bundling.
 3. **Multi-Company Branch Management**: Isolated accounting & stock ledger partitions across subsidiary companies with inter-company journal automation.
 4. **Offline Desktop POS Sync**: Electron + SQLite offline cashier client with automatic background reconciliation to Odoo POS backend.
-5. **Manufacturing (MRP) Dynamic BOM Engine**: Multi-tiered bills of materials, automated scrap rate factoring, and work-center capacity forecasting.
+5. **Funeral Policy & Claims Management System**: Industry-specific solution to manage funeral assurance operations, including policies, proposals, claims processing, agent commissions, vehicle fleets, and tombstone tracking.
+6. **Hotel Operations System**: Full hospitality management module for handling rooms, reservations, folios/billing, check-ins/check-outs, housekeeping, venues, and front-desk shifts.
+7. **CRM Migration & Task Customization**: Extends standard Odoo CRM leads/opportunities with custom fields, an import wizard for legacy system data migration, and to-do task tracking.
 
 ### 💰 Accounting & Financials
-6. **Multi-Currency Dynamic Exchange Engine**: Real-time cross-currency ledger revaluations, historical currency gain/loss ledgers, and rate feeds.
-7. **Sage Evolution SDK API Bridge**: Real-time two-way synchronization bridge between Odoo and Sage Pastel Evolution SDK.
-8. **Automated Bank Reconciliation Engine**: ISO 20022 and MT940 statement parsing with rule-based statement reconciliation.
-9. **Asset Depreciation & Amortization Suite**: Multi-method asset depreciation (Straight-line, Declining balance) with automated monthly entries.
-10. **Zimbabwe Localisation Payroll & Tax Suite**: ZIMRA tax brackets, NSSA contributions, NEC standards, and payslip generation.
-11. **Tax Audit & Electronic Invoicing Engine**: Cryptographic digital signatures, QR codes, and tamper-evident audit trails.
+8. **Multi-Currency Dynamic Exchange Engine**: Real-time cross-currency ledger revaluations, historical currency gain/loss ledgers, and rate feeds.
+9. **Sage Evolution SDK API Bridge**: Real-time two-way synchronization bridge between Odoo and Sage Pastel Evolution SDK.
+10. **Automated Bank Reconciliation Engine**: ISO 20022 and MT940 statement parsing with rule-based statement reconciliation.
+11. **Asset Depreciation & Amortization Suite**: Multi-method asset depreciation (Straight-line, Declining balance) with automated monthly entries.
+12. **Zimbabwe Localisation Payroll & Tax Suite**: ZIMRA tax brackets, NSSA contributions, NEC standards, and payslip generation.
+13. **Cash Flow by Analytic Account Report**: Bespoke financial reporting breakdown of cash movements across analytic cost centers.
 
 ### 📦 Logistics & Operations
-12. **Automated Reordering & Lead Time Suite**: Predictive demand calculation, automated PO generation, and vendor scoring.
-13. **Warehouse 3D Floor & Bin Optimizer**: Visual warehouse layout visualizer, optimized pick-pack-ship routing, and zone velocity analytics.
-14. **Cross-Docking & Drop-Shipping Automation**: Zero-inventory flow engine linking inbound PO receipts to outbound customer orders.
-15. **Fleet & Vehicle Route Optimization**: Real-time GPS-assisted trip logs, automated fuel voucher balancing, and preventive maintenance.
-16. **Barcoding & QR Warehouse Mobile UI**: High-throughput camera & Honeywell/Zebra scanner OWL interface for inventory moves.
-17. **Consignment Stock & Vendor-Managed Inventory (VMI)**: Stock ownership segmentation for third-party consigned items.
+14. **Automated Reordering & Lead Time Suite**: Predictive demand calculation, automated PO generation, and vendor scoring.
+15. **Warehouse 3D Floor & Bin Optimizer**: Visual warehouse layout visualizer, optimized pick-pack-ship routing, and zone velocity analytics.
+16. **Cross-Docking & Drop-Shipping Automation**: Zero-inventory flow engine linking inbound PO receipts to outbound customer orders.
+17. **Fleet & Vehicle Route Optimization**: Real-time GPS-assisted trip logs, automated fuel voucher balancing, and preventive maintenance.
+18. **Barcoding & QR Warehouse Mobile UI**: High-throughput camera & Honeywell/Zebra scanner OWL interface for inventory moves.
+19. **Consignment Stock & Vendor-Managed Inventory (VMI)**: Stock ownership segmentation for third-party consigned items.
 
 ### 🔌 APIs & Sync Engines
-18. **Odoo to Frappe/ERPNext Synchronizer**: High-throughput REST API sync engine for customers, items, and cross-platform ledgers.
-19. **Odoo RESTful & JSON-RPC Webhook Gateway**: Fully documented Swagger/OpenAPI compliant REST gateway with rate limiting and HMAC authentication.
-20. **E-Commerce Real-Time Stock & Order Sync**: Webhook-driven synchronization for Shopify, WooCommerce, and custom web frontends.
-21. **Omnichannel Messaging & SMS Gateway**: Automated notification engine dispatching WhatsApp, SMS, and email alerts on invoice creation and delivery.
-22. **Biometric Attendance to HR Timesheet Sync**: ZKTeco and Hikvision hardware integration pushing biometric logs directly into Odoo HR.
-23. **CRM Lead Auto-Assignment & Enrichment Engine**: GeoIP and round-robin sales pipeline routing with automated email verification.
+20. **Point of Sale & Bank Payment REST API**: HTTP endpoints to receive, record, and deduplicate card/terminal payment transactions sent from external POS systems with EFT terminal integration.
+21. **Odoo to Frappe/ERPNext Synchronizer**: High-throughput REST API sync engine for customers, items, and cross-platform ledgers.
+22. **Odoo RESTful & JSON-RPC Webhook Gateway**: Fully documented Swagger/OpenAPI compliant REST gateway with rate limiting and HMAC authentication.
+23. **E-Commerce Real-Time Stock & Order Sync**: Webhook-driven synchronization for Shopify, WooCommerce, and custom web frontends.
+24. **Omnichannel Messaging & SMS Gateway**: Automated notification engine dispatching WhatsApp, SMS, and email alerts on invoice creation and delivery.
+25. **Biometric Attendance to HR Timesheet Sync**: ZKTeco and Hikvision hardware integration pushing biometric logs directly into Odoo HR.
 
 ### 🚀 Flagship Products & Platforms
-24. **Multi-Tenant School Management ERP**: Comprehensive academic, fee billing, gradebook, and student portal ERP.
-25. **JustGlow Beauty Marketplace**: Full-stack marketplace connecting verified clients with beauty professionals.
-26. **Viba Audio Streaming Platform**: High-scale African music streaming ecosystem.
-27. **RunneR Real-Time Delivery Logistics**: Instant courier dispatching and package tracking system.
-28. **Fluxi Agency Tech Ecosystem**: Production web architecture and enterprise client portfolio.
-29. **Hospitality & Room Booking PMS Module**: Front-desk reservation, room service POS integration, and automated night audits.
-30. **Quality Control & Inspection Checkpoints**: Inline quality checkpoints during manufacturing and receiving with CAPA workflows.
+26. **Multi-Tenant School Management ERP**: Comprehensive academic, fee billing, gradebook, and student portal ERP.
+27. **JustGlow Beauty Marketplace**: Full-stack marketplace connecting verified clients with beauty professionals.
+28. **Viba Audio Streaming Platform**: High-scale African music streaming ecosystem.
+29. **RunneR Real-Time Delivery Logistics**: Instant courier dispatching and package tracking system.
+30. **Fluxi Agency Tech Ecosystem**: Production web architecture and enterprise client portfolio.
 
 ---
 
