@@ -1,11 +1,10 @@
-// Fortune Makunya Portfolio — Service Worker v2.0 (Odoo ERP Edition)
-const CACHE = 'fortune-portfolio-v2';
+// Fortune Makunya Portfolio — Service Worker v3.0 (Odoo ERP Edition)
+const CACHE = 'fortune-portfolio-v3';
 const OFFLINE_URL = '/fortune-dev/';
 
 const PRECACHE = [
   '/fortune-dev/',
   '/fortune-dev/index.html',
-  '/fortune-dev/cv.html',
   '/fortune-dev/manifest.json',
   'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Space+Mono:wght@400;700&display=swap',
   'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'

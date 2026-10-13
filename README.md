@@ -69,8 +69,7 @@ A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) 
 - **Interactive Project Filtering**: Instant filtering across *Enterprise Suites*, *Accounting & Financials*, *Logistics & Operations*, *APIs & Sync Engines*, and *Flagship Products*.
 - **PWA Capabilities**: Installable on desktop & mobile with service worker caching (`fortune-portfolio-v2`).
 - **Interactive Canvas Particles & 3D Tilt**: Physics-driven interactive background canvas and 3D gyroscope/hover card tilt effects.
-- **Dual Themes**: Smooth dark/light mode toggle with full contrast maintenance across all elements.
-- **Dedicated CV Page**: Deep-dive resume page (`cv.html`) detailing formal education (B.Sc. Hons Computer Engineering, University of Zimbabwe), professional experience, and enterprise skill matrices.
+- **Comprehensive Experience & Education Matrix**: Dedicated interactive resume section detailing formal education (B.Sc. Hons Computer Engineering, University of Zimbabwe), professional enterprise experience, and technical skill matrices.
 
 ---
 
