@@ -90,7 +90,7 @@ A high-performance, dark cyberpunk/neon portfolio and Progressive Web App (PWA) 
 ## 📞 Contact & Inquiries
 
 - **Lead Engineer**: Fortune Makunya
-- **Email**: [Fortunemakunya33@gmail.com](mailto:Fortunemakunya33@gmail.com)
+- **Email**: [fortunemakunya88@gmail.com](mailto:fortunemakunya88@gmail.com)
 - **GitHub**: [github.com/Tawney-hub](https://github.com/Tawney-hub)
 - **LinkedIn**: [linkedin.com/in/fortune-makunya-677b86380](https://www.linkedin.com/in/fortune-makunya-677b86380)
 
