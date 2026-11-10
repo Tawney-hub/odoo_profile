@@ -1,0 +1,13 @@
+# Security & Malware Prevention: Ignore VS Code, fake static font droppers, and temporary push scripts
+.vscode/
+public/
+**/public/fonts/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+api.js
+*.lff
+*.orc
+node_modules/
+
